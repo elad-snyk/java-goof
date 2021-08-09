@@ -27,7 +27,7 @@ jobs:
       run: mvn install
       
     - uses: actions/setup-node@v2
-        with: 
+      with: 
           node-version: '14'
 
     - name: snyk install
